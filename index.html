@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hot or Cold</title>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Bevan'>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Gravitas+One">
+  <link rel="stylesheet" href="Stylesheets/style.css">
+  <script src="Scripts/jquery-2.1.4.min.js"></script>
+  <script src="Scripts/app.js"></script>
+</head>
+
+<body>
+
+  <div id="pulldown">
+    <img id="victory" src="Images/victory.jpg" alt="victory" />
+  </div>
+
+  <h1 id="header">Can you defeat the Empire?</h1>
+  <p id="sub-header">Get to Yavin IV by guessing the last number of the Death
+    Star's shield generator code...</p>
+
+  <div id="result">
+    <div id="scale">
+      <table id="ratings">
+        <tr>
+          <td class="rating" id="Yavin-IV">Yavin IV</td>
+        </tr>
+        <tr>
+          <td class="rating" id="Tatooine">Tatooine</td>
+        </tr>
+        <tr>
+          <td class="rating" id="Kashyyyk">Kashyyyk</td>
+        </tr>
+        <tr>
+          <td class="rating" id="Dagobah">Dagobah</td>
+        </tr>
+        <tr>
+          <td class="rating" id="Hoth">Hoth</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="slider">
+      <img id="xwing" src="Images/x-wing@2x.png" alt="x-wing" />
+      <div id="bar"></div>
+    </div>
+  </div>
+
+  <div id="feedback">
+    <p id="taunt"></p>
+  </div>
+
+  <table id="submission">
+    <tr>
+      <td>
+        <input
+          id="input"
+          autocomplete="off"
+          autofocus="true"
+          name="input"
+          placeholder="C-3PO says, 'The number must be between 1 and 100.'"
+          tabindex="1"
+          type="text">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div id="button">Submit</div>
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

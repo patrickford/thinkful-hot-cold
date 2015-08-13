@@ -1,0 +1,123 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Bevan', sans-serif;
+  text-align: center;
+}
+
+#pulldown {
+  display: none;
+}
+
+#victory {
+  display: block;
+  margin: auto;
+}
+
+#header {
+  font-size: 6rem;
+  margin: 0rem;
+}
+
+#sub-header {
+  font-size: 2.2rem;
+  margin: -1rem;
+}
+
+#result {
+  height: 40rem;
+  margin: 2rem auto 2rem auto;
+}
+
+#scale {
+  height: 40rem;
+  margin: 0 auto 0 auto;
+  width: 20rem;
+}
+
+#ratings {
+  height: 40rem;
+  width: 20rem;
+}
+
+.rating {
+  font-size: 3rem;
+}
+
+#Yavin-IV {
+  color: #f00;
+}
+
+#Tatooine {
+  color: #fa0;
+}
+
+#Kashyyyk {
+  color: #fe0;
+}
+
+#Dagobah{
+  color: #0f7;
+}
+
+#Hoth {
+  color: #08f;
+}
+
+#slider {
+  margin: -4.2rem auto 0 auto;
+  position: relative;
+  width: 50rem;
+  z-index: 1;
+}
+
+#xwing {
+  display: block;
+  float: left;
+  margin-top: -1.6rem;
+}
+
+#bar {
+  background-color: #f0d;
+  height: .3rem;
+  margin: 0 auto 0 auto;
+  opacity: .3;
+  width: 30rem;
+}
+
+#feedback {
+  height: 3rem;
+  margin: 0 auto 1rem auto;
+}
+
+#taunt {
+  color: #5f5f5f;
+  font-family: 'Gravitas One';
+  font-size: 2rem;
+  margin: .6rem;
+  opacity: 0;
+}
+
+#submission {
+  margin: 0 auto 0 auto;
+}
+
+#input {
+  border: .2rem solid #000;
+  font-size: 2.2rem;
+  padding: .6rem;
+  text-align: center;
+  width: 56rem;
+}
+
+#button {
+  background-color: #08f;
+  border-radius: .5rem;
+  color: #fff;
+  font-size: 2.4rem;
+  margin: 0 auto 0 auto;
+  padding: .1em;
+  width: 5em;
+}
