@@ -2,3 +2,4 @@
 .eslintrc
 .tern-project
 node_modules
+typings
