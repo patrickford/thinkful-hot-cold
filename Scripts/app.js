@@ -3,7 +3,7 @@ $(document).ready(function () {
 
   var multiplier = 100;
   var randomNum = Math.ceil(Math.random() * 100);
-  var SCALE = 32;
+  var SCALE = 31.8;
   var quotes = [
     'Your focus determines your reality.',
     'Do... or do not. There is no try.',
